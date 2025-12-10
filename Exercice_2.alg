@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Algo>
-    <description courant="AFFICHER &quot; &quot;" texte=""/>
+    <description courant="AFFICHER &quot;Donner les valeurs du tableau !&quot;" texte=""/>
     <extension extnom="inactif"/>
     <fonction fctetat="inactif" fctcode=""/>
-    <F2 F2defaut="" F2lignes="" F2etat="inactif" F2para=""/>
-    <repere repetat="inactif" repcode="-10#10#-10#10#2#2"/>
-    <param totalBoucles="5000000" epaisseurLigne="2" arrondiAuto="vrai" totalAffichages="1000" nbDecimales="8" epaisseurPoint="2" maxBoucle="500000"/>
+    <F2 F2etat="inactif" F2para="" F2defaut="" F2lignes=""/>
+    <repere repcode="-10#10#-10#10#2#2" repetat="inactif"/>
+    <param epaisseurPoint="2" totalBoucles="5000000" arrondiAuto="vrai" epaisseurLigne="2" totalAffichages="1000" maxBoucle="500000" nbDecimales="8"/>
     <item algoitem="FONCTIONS_UTILISEES" code="200#declarationfonctions">
         <item algoitem="FONCTION Inverse(tab,taille)" code="201#Inverse#tab,taille">
             <item algoitem="VARIABLES_FONCTION" code="202#declarationsvariablesfonction">
@@ -33,7 +33,7 @@
         <item algoitem="AFFICHER &quot;Le tableau a &quot;" code="4#Le tableau a #0"/>
         <item algoitem="AFFICHER taille" code="3#taille#0#pasliste"/>
         <item algoitem="AFFICHER &quot;éléments.&quot;" code="4#éléments.#1"/>
-        <item algoitem="AFFICHER &quot;Entrer les valeurs du tableau (taper Entrée après chaque valeur pour valider)&quot;" code="4#Entrer les valeurs du tableau (taper Entrée après chaque valeur pour valider)#0"/>
+        <item algoitem="AFFICHER &quot;Donner les valeurs du tableau !&quot;" code="4#Donner les valeurs du tableau !#0"/>
         <item algoitem="POUR i ALLANT_DE 0 A taille-1" code="12#i#0#taille-1">
             <item algoitem="DEBUT_POUR" code="13#debutpour"/>
             <item algoitem="LIRE tab[i]" code="2#tab#i"/>
