@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Algo>
-    <description texte="" courant="AFFICHER &quot;Donner les éléments du tableau :&quot;"/>
+    <description texte="" courant="AFFICHER &quot;Entrer les éléments du tableau :&quot;"/>
     <extension extnom="inactif"/>
     <fonction fctetat="inactif" fctcode=""/>
     <F2 F2etat="inactif" F2para="" F2defaut="" F2lignes=""/>
@@ -46,7 +46,7 @@
     <item algoitem="DEBUT_ALGORITHME" code="101#debutalgo">
         <item algoitem="AFFICHER &quot;Quelle est la dimension du tableau ? &quot;" code="4#Quelle est la dimension du tableau ? #1"/>
         <item algoitem="LIRE N" code="2#N#pasliste"/>
-        <item algoitem="AFFICHER &quot;Donner les éléments du tableau :&quot;" code="4#Donner les éléments du tableau :#1"/>
+        <item algoitem="AFFICHER &quot;Entrer les éléments du tableau :&quot;" code="4#Entrer les éléments du tableau :#1"/>
         <item algoitem="POUR i ALLANT_DE 0 A N-1" code="12#i#0#N-1">
             <item algoitem="DEBUT_POUR" code="13#debutpour"/>
             <item algoitem="LIRE Tab[i]" code="2#Tab#i"/>
