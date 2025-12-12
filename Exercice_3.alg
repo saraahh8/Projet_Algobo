@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Algo>
-    <description texte="" courant="AFFICHER &quot;Entrer les éléments du tableau :&quot;"/>
+    <description texte="" courant="AFFICHER &quot;Quelle est la dimension du tableau ??&quot;"/>
     <extension extnom="inactif"/>
     <fonction fctcode="" fctetat="inactif"/>
-    <F2 F2etat="inactif" F2defaut="" F2lignes="" F2para=""/>
-    <repere repcode="-10#10#-10#10#2#2" repetat="inactif"/>
-    <param totalBoucles="5000000" epaisseurLigne="2" maxBoucle="500000" epaisseurPoint="2" nbDecimales="8" arrondiAuto="vrai" totalAffichages="1000"/>
+    <F2 F2lignes="" F2defaut="" F2para="" F2etat="inactif"/>
+    <repere repetat="inactif" repcode="-10#10#-10#10#2#2"/>
+    <param epaisseurLigne="2" arrondiAuto="vrai" epaisseurPoint="2" nbDecimales="8" maxBoucle="500000" totalBoucles="5000000" totalAffichages="1000"/>
     <item algoitem="FONCTIONS_UTILISEES" code="200#declarationfonctions">
         <item algoitem="FONCTION App(V, Tab)" code="201#App#V, Tab">
             <item algoitem="VARIABLES_FONCTION" code="202#declarationsvariablesfonction">
@@ -44,7 +44,7 @@
         <item algoitem="N EST_DU_TYPE NOMBRE" code="1#NOMBRE#N"/>
     </item>
     <item algoitem="DEBUT_ALGORITHME" code="101#debutalgo">
-        <item algoitem="AFFICHER &quot;Quelle est la dimension du tableau ? &quot;" code="4#Quelle est la dimension du tableau ? #1"/>
+        <item algoitem="AFFICHER &quot;Quelle est la dimension du tableau ??&quot;" code="4#Quelle est la dimension du tableau ??#1"/>
         <item algoitem="LIRE N" code="2#N#pasliste"/>
         <item algoitem="AFFICHER &quot;Entrer les éléments du tableau :&quot;" code="4#Entrer les éléments du tableau :#1"/>
         <item algoitem="POUR i ALLANT_DE 0 A N-1" code="12#i#0#N-1">
