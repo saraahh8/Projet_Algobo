@@ -2,10 +2,10 @@
 <Algo>
     <description texte="" courant="AFFICHER &quot;Entrer les éléments du tableau :&quot;"/>
     <extension extnom="inactif"/>
-    <fonction fctetat="inactif" fctcode=""/>
-    <F2 F2etat="inactif" F2para="" F2defaut="" F2lignes=""/>
+    <fonction fctcode="" fctetat="inactif"/>
+    <F2 F2etat="inactif" F2defaut="" F2lignes="" F2para=""/>
     <repere repcode="-10#10#-10#10#2#2" repetat="inactif"/>
-    <param maxBoucle="500000" nbDecimales="8" totalAffichages="1000" totalBoucles="5000000" epaisseurLigne="2" epaisseurPoint="2" arrondiAuto="vrai"/>
+    <param totalBoucles="5000000" epaisseurLigne="2" maxBoucle="500000" epaisseurPoint="2" nbDecimales="8" arrondiAuto="vrai" totalAffichages="1000"/>
     <item algoitem="FONCTIONS_UTILISEES" code="200#declarationfonctions">
         <item algoitem="FONCTION App(V, Tab)" code="201#App#V, Tab">
             <item algoitem="VARIABLES_FONCTION" code="202#declarationsvariablesfonction">
